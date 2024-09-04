@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() 
+{
+   int a,b,ans;
+   char c,d,e,f;
+   printf("enter two integer number,\n");
+   scanf("%d %d %c %c %c %c",&a,&b,&c,&d,&e,&f);
+   ans=a+b;
+   printf("\nIn question %c the addition of %d and %d =%d",c,a,b,ans);
+   ans=a-b;
+   printf("\nIn question %c the subtraction of %d and %d =%d",d,a,b,ans);
+   ans=a*b;
+   printf("\nIn question %c the multiplication of %d and %d =%d",e,a,b,ans);
+   ans=a/b;
+   printf("\nIn question %c the division of %d and %d =%d",f,a,b,ans);
+   return 0;
+}
