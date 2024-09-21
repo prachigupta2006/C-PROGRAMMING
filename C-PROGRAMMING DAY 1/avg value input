@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() 
+{
+    float we1, we2, num1, num2,avg;
+    float averageValue;
+
+    printf("Enter weight 1");
+    scanf("%f", &we1);
+    printf("Enter number 1");
+    scanf("%f", &num1);
+
+    printf("Enter weight 1");
+    scanf("%f", &we2);
+    printf("Enter number 2");
+    scanf("%f", &num2);
+
+    avg = ((we1 * num1) + (we2 * num2)) / (num1 + num2);
+
+    printf("%f", avg);
+
+    return 0;
+}

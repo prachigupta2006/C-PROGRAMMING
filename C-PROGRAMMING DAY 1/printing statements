@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Name :Prachi gupta");
+    printf("\nDOB : 11/01/2006");
+    printf("\nNumber :8585040567");
+
+    return 0;
+}
