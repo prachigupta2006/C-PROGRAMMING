@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{    
+    int a=10, b = 20,j=0;
+    // TRUE =1 , FALSE = 0
+    //int x =(a<=10)&&(b>10);
+    //int x =(a<10)||(b>21);
+    int x = !j
+    
+    
+    printf("%d",x);
+    
+
+    return 0;
+}
