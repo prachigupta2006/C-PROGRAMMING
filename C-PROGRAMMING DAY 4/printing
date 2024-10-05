@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    char name[100];
+    printf("enter user name:");
+    scanf("%99s",&name);
+    printf("\nwelcome,%s!\n",name);
+    
+
+    return 0;
+}
