@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+    
+    // Prompt the user to enter the number of odd numbers
+    printf("Enter the number of odd numbers to print: ");
+    scanf("%d", &n);
+    
+    // Print the first n odd numbers
+    printf("First %d odd numbers are:\n", n);
+    int count = 0; // Counter for odd numbers
+    int number = 1; // Starting odd number
+    
+    while (count < n) {
+        printf("%d ", number);
+        number += 2; // Move to the next odd number
+        count++;
+    }
+    printf("\n");
+    
+    return 0;
+}
