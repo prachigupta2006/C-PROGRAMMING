@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int a[] = {11,12,13,14,15,16,17,18,19,20};
+    int i,start,end;
+    printf("enter start and end value");
+    scanf("%d %d",&start,&end);
+    
+    for (i =start;i<=end;i++)
+    {
+        printf("%d\n",a[i]);
+    }
+    return 0;
+}
