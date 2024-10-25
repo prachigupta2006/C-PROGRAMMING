@@ -1,1 +1,1 @@
-daily c programming studies.
+DAILY C-PROGRAMMING STUDY BASICS.
